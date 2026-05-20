@@ -31,25 +31,25 @@ Este proyecto analiza **3.477.557 transacciones de registro vehicular** entre 20
 
 ## 🔍 Hallazgos Principales
 
-| # | Hallazgo | Insight clave |
-|---|----------|---------------|
-| 1 | **Recuperación post-pandemia** | Caída del 15% en 2020 seguida de una recuperación acelerada en 2021, la más rápida de la región |
-| 2 | **Irrupción de marcas chinas** | SHINERAY alcanzó el segundo lugar del mercado; DAYTONA creció un 33,73% YoY |
-| 3 | **Anomalía geográfica en Imbabura** | La provincia supera a Manabí en transacciones (472.250) pese a tener menor población, sugiriendo una estrategia comercial efectiva |
-| 4 | **Electrificación acelerada** | Los vehículos eléctricos registran la mayor tasa de crecimiento YoY del mercado, impulsados por incentivos tributarios del SRI |
-| 5 | **Dominio de motocicletas** | Segmento dominante por clase, vinculado al crecimiento del delivery y la movilidad urbana accesible |
-| 6 | **Alta valorización** | Crecimiento de 16,5% YoY en avalúo total refleja un mercado dinámico y en expansión |
+| #   | Hallazgo                            | Insight clave                                                                                                                      |
+| --- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Recuperación post-pandemia**      | Caída del 15% en 2020 seguida de una recuperación acelerada en 2021, la más rápida de la región                                    |
+| 2   | **Irrupción de marcas chinas**      | SHINERAY alcanzó el segundo lugar del mercado; DAYTONA creció un 33,73% YoY                                                        |
+| 3   | **Anomalía geográfica en Imbabura** | La provincia supera a Manabí en transacciones (472.250) pese a tener menor población, sugiriendo una estrategia comercial efectiva |
+| 4   | **Electrificación acelerada**       | Los vehículos eléctricos registran la mayor tasa de crecimiento YoY del mercado, impulsados por incentivos tributarios del SRI     |
+| 5   | **Dominio de motocicletas**         | Segmento dominante por clase, vinculado al crecimiento del delivery y la movilidad urbana accesible                                |
+| 6   | **Alta valorización**               | Crecimiento de 16,5% YoY en avalúo total refleja un mercado dinámico y en expansión                                                |
 
 ---
 
 ## 🛠️ Stack Técnico
 
-| Herramienta | Uso |
-|-------------|-----|
-| **Power BI Desktop** | Modelado, visualización e informes |
-| **Power Query (M)** | Ingesta y transformación de 7 archivos CSV |
-| **DAX** | Medidas calculadas (YoY, acumulados, rankings) |
-| **Modelo Estrella** | Arquitectura del modelo de datos |
+| Herramienta          | Uso                                            |
+| -------------------- | ---------------------------------------------- |
+| **Power BI Desktop** | Modelado, visualización e informes             |
+| **Power Query (M)**  | Ingesta y transformación de 7 archivos CSV     |
+| **DAX**              | Medidas calculadas (YoY, acumulados, rankings) |
+| **Modelo Estrella**  | Arquitectura del modelo de datos               |
 
 ### Modelo de Datos
 
@@ -112,35 +112,15 @@ El archivo `docs/SRI_Vehiculos_DD.xlsx` documenta cada campo del dataset origina
 
 ## 📈 Vista Previa
 
-> *Capturas del dashboard. Para verlas, agrega los PNG en la carpeta `screenshots/` con la nomenclatura indicada.*
+>
 
-| Sección | Archivo |
-|---------|---------|
-| Resumen ejecutivo | `screenshots/01_resumen_ejecutivo.png` |
-| Tendencia anual | `screenshots/02_tendencia_anual.png` |
+| Sección                 | Archivo                                      |
+| ----------------------- | -------------------------------------------- |
+| Resumen ejecutivo       | `screenshots/01_resumen_ejecutivo.png`       |
+| Tendencia anual         | `screenshots/02_tendencia_anual.png`         |
 | Distribución geográfica | `screenshots/03_distribucion_geografica.png` |
-| Marcas y segmentos | `screenshots/04_marcas_y_segmentos.png` |
-| Electrificación | `screenshots/05_electrificacion.png` |
-
----
-
-## 🚀 Próximas Mejoras
-
-- [ ] Publicar el dashboard en **Power BI Service** para acceso web sin Power BI Desktop
-- [ ] Integrar fuentes complementarias (INEC, AEADE) para enriquecer el análisis demográfico
-- [ ] Construir un modelo predictivo (ML) para forecasting de ventas por marca y provincia
-- [ ] Agregar análisis de cohortes por año-modelo y depreciación
-
----
-
-## 👩‍💻 Autora
-
-**Jennifer Intriago Reyes**
-📧 jennifergabriela52@gmail.com
-
-Full Stack Developer · Data Analyst · ML Engineer · Ecuador 🇪🇨
-
----
+| Marcas y segmentos      | `screenshots/04_marcas_y_segmentos.png`      |
+| Electrificación         | `screenshots/05_electrificacion.png`         |
 
 ## 📄 Fuente de Datos
 
