@@ -1,0 +1,76 @@
+# ===========================
+# Datos descomprimidos
+# ===========================
+# Los CSV viven dentro de data/SRI_Vehiculos_Nuevos_2019-2025.zip.
+# Si los descomprimes localmente para trabajar, no se subirán al repo.
+data/*.csv
+data/SRI_Vehiculos_Nuevos_*.csv
+
+# ===========================
+# Power BI — archivos temporales
+# ===========================
+*.pbix.tmp
+*.pbix.bak
+*.pbi.lock
+~$*.pbix
+*.pbiviz
+.powerbi/
+
+# ===========================
+# Office — archivos temporales
+# ===========================
+~$*.xlsx
+~$*.xls
+~$*.docx
+*.xlsx.lock
+
+# ===========================
+# Sistema operativo
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.fuse_hidden*
+
+# ===========================
+# Editores e IDEs
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===========================
+# Credenciales / configuración local
+# ===========================
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+secrets.json
+config.local.*
+
+# ===========================
+# Logs y caches
+# ===========================
+*.log
+.cache/
+tmp/
+temp/
