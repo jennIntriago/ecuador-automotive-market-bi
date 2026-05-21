@@ -73,8 +73,6 @@ Se eligió el **esquema estrella** sobre un modelo plano por: (1) rendimiento en
  ┃ ┗ SRI_Vehiculos_Nuevos_2019-2025.zip   → 7 CSV (2019–2025), ~570 MB descomprimidos
  ┣ 📂 docs/                       → Documentación técnica
  ┃ ┗ SRI_Vehiculos_DD.xlsx        → Diccionario de datos (campos, tipos, descripciones)
- ┣ 📂 report/                     → Informe ejecutivo del análisis
- ┃ ┗ AnalisisDA-JenniferIntriago_PowerBI.pdf
  ┣ 📂 screenshots/                → Capturas del dashboard
  ┣ 📄 AnalisisAutomotriz.pbix     → Archivo Power BI del proyecto
  ┗ 📄 README.md
@@ -85,13 +83,10 @@ Se eligió el **esquema estrella** sobre un modelo plano por: (1) rendimiento en
 ## ▶️ Cómo visualizar el dashboard
 
 1. Descarga e instala [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/) (gratuito, solo Windows)
-2. Clona este repositorio o descarga el ZIP:
-   ```bash
-   git clone https://github.com/TU_USUARIO/analisis-automotriz-ecuador.git
-   ```
+2. Clona este repositorio o descarga el ZIP
 3. Descomprime `data/SRI_Vehiculos_Nuevos_2019-2025.zip` en la misma carpeta `data/` (los CSV se comprimen para respetar el límite de 100 MB de GitHub)
 4. Abre `AnalisisAutomotriz.pbix` con Power BI Desktop. Si Power Query pide refrescar la fuente, apunta las rutas a la carpeta `data/`
-5. Si te interesa el análisis sin instalar nada: revisa el informe en **`report/`** o las capturas en **`screenshots/`**
+5. Si te interesa el análisis sin instalar nada, revisa las capturas en **`screenshots/`**
 
 ---
 
@@ -112,15 +107,11 @@ El archivo `docs/SRI_Vehiculos_DD.xlsx` documenta cada campo del dataset origina
 
 ## 📈 Vista Previa
 
->
-
-| Sección                 | Archivo                                      |
-| ----------------------- | -------------------------------------------- |
-| Resumen ejecutivo       | `screenshots/01_resumen_ejecutivo.png`       |
-| Tendencia anual         | `screenshots/02_tendencia_anual.png`         |
-| Distribución geográfica | `screenshots/03_distribucion_geografica.png` |
-| Marcas y segmentos      | `screenshots/04_marcas_y_segmentos.png`      |
-| Electrificación         | `screenshots/05_electrificacion.png`         |
+| Sección                          | Archivo                                  |
+| -------------------------------- | ---------------------------------------- |
+| Resumen ejecutivo                | `screenshots/01_resumen_ejecutivo.jpeg`  |
+| Tendencia por marca              | `screenshots/02_tendencia_marca.jpeg`    |
+| Tendencia por provincia          | `screenshots/03_tendencia_provincia.jpeg`|
 
 ## 📄 Fuente de Datos
 
